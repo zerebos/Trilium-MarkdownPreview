@@ -1,6 +1,9 @@
 # Trilium-MarkdownPreview
 A widget for trilium notes for live previewing markdown files with support for anchors, images, and sync scroll.
 
+## Why?
+I know Trilium isn't a markdown editor, but I still use markdown for other things like my GitHub READMEs and I like storing everything in one place--Trilium. The only problem was, I couldn't preview my markdown files, and that's super helpful to have before I go pushing a commit. After looking, I couldn't find an existing widget for it, so I decided to make my own.
+
 ## Preview
 <!-- https://raw.githubusercontent.com/rauenzi/Trilium-MarkdownPreview/blob/main/LICENSE -->
 ![Banner](https://github.com/rauenzi/Trilium-MarkdownPreview/assets/6865942/93194c61-eee3-49fd-8ed8-970f1476539c)
@@ -18,7 +21,7 @@ A widget for trilium notes for live previewing markdown files with support for a
 
 ## Installation
 
-1. Create a new code note with `JS Frontened` type. Copy and paste [widget.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/src/widget.js) into the note.
+1. Create a new code note with `JS Frontend` type. Copy and paste [widget.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/src/widget.js) into the note.
     - Be sure to add the `#widget` attribute to the note
 1. Attach the [marked.min.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/lib/marked.min.js) file to the note either via drag-n-drop or import.
 1. (optional) Create one (or more) child code notes of `CSS` type and fill it with any global markdown styles.
@@ -32,7 +35,9 @@ If you want your codeblocks to have syntax highlighting, follow these steps:
 
 ## Usage
 
-To make a note previewable, simply add the `#markdownPreview` attribute to it. (You may have to switch notes after). After that, just start writing in markdown on the code editor side. You'll see the preview update with you as you go.
+Create a code note with markdown type. Then, to make a note previewable, simply add the `#markdownPreview` attribute to it. (You may have to switch notes afterward for the preview to appear.)
+
+After that, just start writing in markdown on the code editor side. You'll see the preview update with you as you go.
 
 If you're going to add any images or styles to the note, it can be annoying to see the preview cards at the bottom. You can hide those by adding the `#hideChildrenOverview` native to Trilium.
 
