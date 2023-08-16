@@ -3,7 +3,7 @@ A widget for trilium notes for live previewing markdown files with support for a
 
 ## Preview
 <!-- https://raw.githubusercontent.com/rauenzi/Trilium-MarkdownPreview/blob/main/LICENSE -->
-![Banner](https://i.imgur.com/9shsoST.png)
+![Banner](https://github.com/rauenzi/Trilium-MarkdownPreview/assets/6865942/93194c61-eee3-49fd-8ed8-970f1476539c)
 
 
 ## Features
@@ -18,16 +18,16 @@ A widget for trilium notes for live previewing markdown files with support for a
 
 ## Installation
 
-1. Create a new code note with `JS Frontened` type. Copy and paste [widget.js](https://github.com/rauenzi/Trilium-SyntaxHighlight/blob/main/src/widget.js) into the note.
+1. Create a new code note with `JS Frontened` type. Copy and paste [widget.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/src/widget.js) into the note.
     - Be sure to add the `#widget` attribute to the note
-1. Attach the [marked.min.js](https://github.com/rauenzi/Trilium-SyntaxHighlight/blob/main/lib/marked.min.js) file to the note either via drag-n-drop or import.
+1. Attach the [marked.min.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/lib/marked.min.js) file to the note either via drag-n-drop or import.
 1. (optional) Create one (or more) child code notes of `CSS` type and fill it with any global markdown styles.
 
 ### Syntax Highlighting (optional)
 If you want your codeblocks to have syntax highlighting, follow these steps:
 
-1. Attach the [highlight.min.js](https://github.com/rauenzi/Trilium-SyntaxHighlight/blob/main/lib/highlight.min.js) file to the note either via drag-n-drop or import.
-1. (optional) Attach the pre-made syntax styles from [styles.css](https://github.com/rauenzi/Trilium-SyntaxHighlight/blob/main/src/styles.css) as a child note of the [main widget](#installation).
+1. Attach the [highlight.min.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/lib/highlight.min.js) file to the note either via drag-n-drop or import.
+1. (optional) Attach the pre-made syntax styles from [styles.css](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/src/styles.css) as a child note of the [main widget](#installation).
 
 
 ## Usage
@@ -71,13 +71,14 @@ Local styles are specific to the markdown note. Just make a `CSS` note as a chil
 ## Showcase
 
 ### Anchors
-
+https://github.com/rauenzi/Trilium-MarkdownPreview/assets/6865942/dbf35c96-cd2e-4265-85bf-9cc977d44b18
 
 ### Local Styles
-
+https://github.com/rauenzi/Trilium-MarkdownPreview/assets/6865942/1d41cbc7-c4f8-41ab-8ab3-6b7fb2bfa75b
 
 ### ScrollSync
-
+https://github.com/rauenzi/Trilium-MarkdownPreview/assets/6865942/9ece0241-5f6a-4cbc-b911-26b0f95b7dff
 
 ### ScrollSync=left
+https://github.com/rauenzi/Trilium-MarkdownPreview/assets/6865942/c58e6ab1-0ad8-4714-8aa8-e972a61c20db
 
