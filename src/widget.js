@@ -83,6 +83,7 @@ class MarkdownPreviewWidget extends api.RightPanelWidget {
     }
     
     async noteSwitched() {
+        if (!this.note) return;
         noteId = this.note.noteId;
         await this.getImages();
         await this.updateCss();
