@@ -152,7 +152,7 @@ class MarkdownPreviewWidget extends api.RightPanelWidget {
         const globalStyles = globalChildren.filter(n => n.mime == "text/css");
         for (const style of globalStyles) accumulator += await style.getContent();
 
-        if (this.note) {
+        if (this.note && this.isEnabled()) {
             const localChildren = await this.note.getChildNotes();
             const localStyles = localChildren.filter(n => n.mime == "text/css");
             for (const style of localStyles) accumulator += await style.getContent();
