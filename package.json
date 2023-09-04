@@ -1,18 +1,23 @@
 {
   "name": "trilium-markdownpreview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A widget for trilium to preview markdown notes.",
   "main": "src/widget.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pack": "tpack",
+    "send": "node scripts/send.js"
   },
   "author": "Zerebos",
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^8.47.0"
+    "@types/trilium": "npm:trilium-types@^0.1.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.47.0",
+    "trilium-etapi": "^0.1.1",
+    "trilium-pack": "^0.1.0"
   },
   "dependencies": {
     "highlight.js": "^11.8.0",
