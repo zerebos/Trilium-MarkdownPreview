@@ -73,7 +73,8 @@ class MarkdownPreviewWidget extends api.RightPanelWidget {
     async refreshWithNote(note) {
         const {content} = await note.getNoteComplement();
         this.$preview.html(markedjs.parse(content));
-        hljs?.highlightAll?.();
+        const highlightLabel = api.startNote.getLabel("syntaxHighlighting");
+        if (highlightLabel?.value !== "false") hljs?.highlightAll?.();
     }
 
     async entitiesReloadedEvent({loadResults}) {

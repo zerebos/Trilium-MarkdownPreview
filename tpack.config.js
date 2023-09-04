@@ -3,7 +3,11 @@ module.exports = {
     notes: {
         title: "Markdown Preview",
         file: "src/widget.js",
-        attributes: {"#widget": ""},
+        attributes: {
+            "#widget": "",
+            "#label:syntaxHighlighting": "promoted,single,boolean",
+            "#syntaxHighlighting": "true"
+        },
         children: [
             {type: "file", file: "lib/highlight.min.js"},
             {type: "file", file: "lib/marked.min.js"},

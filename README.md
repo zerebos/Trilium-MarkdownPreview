@@ -34,6 +34,10 @@ After that, just start writing in markdown on the code editor side. You'll see t
 
 If you're going to add any images or styles to the note, it can be annoying to see the preview cards at the bottom. You can hide those by adding the `#hideChildrenOverview` native to Trilium.
 
+### Syntax Highlighting
+
+Syntax highlighting is enabled by default, you can disable this by unchecking the promoted attribute `syntaxHighlighting` on the widget note!
+
 ### Images
 #### Local
 

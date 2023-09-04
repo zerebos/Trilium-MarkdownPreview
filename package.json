@@ -1,6 +1,6 @@
 {
   "name": "trilium-markdownpreview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A widget for trilium to preview markdown notes.",
   "main": "src/widget.js",
   "directories": {
