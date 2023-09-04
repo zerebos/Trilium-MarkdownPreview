@@ -21,16 +21,9 @@ I know Trilium isn't a markdown editor, but I still use markdown for other thing
 
 ## Installation
 
-1. Create a new code note with `JS Frontend` type. Copy and paste [widget.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/src/widget.js) into the note.
-    - Be sure to add the `#widget` attribute to the note
-1. Attach the [marked.min.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/lib/marked.min.js) file to the note either via drag-n-drop or import.
+1. Download the `zip` file from the [latest release](https://github.com/rauenzi/Trilium-MarkdownPreview/releases/latest) on GitHub.
+1. Import the zip into Trilium, but make sure you uncheck `Safe Import`!
 1. (optional) Create one (or more) child code notes of `CSS` type and fill it with any global markdown styles.
-
-### Syntax Highlighting (optional)
-If you want your codeblocks to have syntax highlighting, follow these steps:
-
-1. Attach the [highlight.min.js](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/lib/highlight.min.js) file to the note either via drag-n-drop or import.
-1. (optional) Attach the pre-made syntax styles from [styles.css](https://github.com/rauenzi/Trilium-MarkdownPreview/blob/main/src/styles.css) as a child note of the [main widget](#installation).
 
 
 ## Usage
